@@ -9,8 +9,4 @@ management:
     web:
       base-path: /management
       exposure:
-        include: ["configprops", "env", "health", "info", "threaddump", "logfile", "jhi-metrics", "prometheus" ]
-
-springdoc:
-  api-docs:
-    path: /api-docs
+        include: ["configprops", "env", "health", "info", "threaddump", "logfile", "jhi-metrics", "prometheus"]
