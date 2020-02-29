@@ -145,7 +145,7 @@ paths:
       tags:
         - Tasks
       summary: Deletes a specific task
-      operationId: deleteTas
+      operationId: deleteTask
       parameters:
         - name: project-id
           in: path
@@ -197,7 +197,6 @@ paths:
               schema:
                 $ref: '#/components/schemas/Task'
 
-
 components:
   schemas:
 
@@ -206,6 +205,8 @@ components:
       required:
         - title
       properties:
+        projectId:
+          type: integer
         title:
           type: string
         description:
@@ -220,6 +221,8 @@ components:
       required:
         - title
       properties:
+        taskId:
+          type: integer
         information:
           $ref: '#/components/schemas/TaskInformation'
         creationDate:
