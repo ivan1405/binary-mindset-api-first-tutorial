@@ -17,7 +17,7 @@
         <jackson-databind.version>0.2.1</jackson-databind.version>
         <fasterxml-jackson.version>2.10.1</fasterxml-jackson.version>
         <lombok.version>1.18.10</lombok.version>
-        <openapi-generator-maven-plugin.version>4.2.3</openapi-generator-maven-plugin.version>
+        <openapi-generator-maven-plugin.version>5.1.0</openapi-generator-maven-plugin.version>
         <problem-spring-web.version>0.25.2</problem-spring-web.version>
         <!-- Other -->
         <project-base-package>com.binary.mindset.apiFirst</project-base-package>
